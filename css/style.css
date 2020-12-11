@@ -1,12 +1,3 @@
-/* font-family: 'Raleway', sans-serif; 
-font-family: 'Roboto', sans-serif; */
-
-/* цвет основного текста #757575 */
-/* вторичный цвет текста #212121 */
-/* белый #FFFFFF */
-/* акцент #2196F3 */
-/* вторичный цвет фона #2F303A */
-/* background: #F5F4FA; */
 
 :root {
   --main-text-color: #757575;
@@ -15,10 +6,12 @@ font-family: 'Roboto', sans-serif; */
   --primary-white-color: #ffffff;
   --dark-bg-color: #2F303A;
   --middle-bg-color: #F5F4FA;
+  --main-font-weight: 700;
+  --secondary-font-weight: 400;
 }
 
 body {
-  font-weight: 700;
+  font-weight: var(--main-font-weight);
   background-color: var(--primary-white-color);
   color: var(--main-text-color);
   font-family: 'Roboto', sans-serif;
@@ -127,7 +120,7 @@ ul {
 .features-text {
   width: 270px;
   height: 75px;
-  font-weight: 400;
+  font-weight: var(--secondary-font-weight);
   font-size: 14px;
   line-height: 1.71;
 }
@@ -167,7 +160,7 @@ ul {
 .team-description {
   width: 130px;
   height: 19px;
-  font-weight: 400;
+  font-weight: var(--secondary-font-weight);
   font-size: 16px;
   line-height: 1.19;
 }
@@ -192,7 +185,7 @@ ul {
 .adress-footer {
   width: 231px;
   height: 21px;
-  font-weight: 400;
+  font-weight: var(--secondary-font-weight);
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -239,7 +232,7 @@ ul {
 .portfolio-text {
   width: 322px;
   height: 30px;
-  font-weight: 400;
+  font-weight: var(--secondary-font-weight);
   font-size: 16px;
   line-height: 1.88;
 }
