@@ -156,7 +156,7 @@ ul {
   color: var(--primary-white-color);
 } 
 
-.adress-footer {
+.address-footer {
   font-weight: var(--secondary-font-weight);
   font-size: 14px;
   line-height: 1.71;
@@ -164,7 +164,7 @@ ul {
   font-style: normal;
 }
 
-.home-adress {
+.home-address {
   color: var(--primary-white-color);
 }
 
