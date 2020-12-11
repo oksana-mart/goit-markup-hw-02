@@ -29,8 +29,6 @@ ul {
 /* Header */
 .logo-nav {
   font-family: 'Raleway', sans-serif;
-  width: 145px;
-  height: 31px;
   font-size: 26px;
   line-height: 1.19;
   color: #000000;
@@ -42,8 +40,6 @@ ul {
 }
 
 .nav-link {
-  width: 77px;
-  height: 16px;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -61,8 +57,6 @@ ul {
 }
 
 .contacts-header {
-  width: 122px;
-  height: 16px;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -78,14 +72,10 @@ ul {
 }
 
 .hero {
-  width: 1600px;
-  height: 600px;
   background-color: var(--dark-bg-color);
 }
 
 .hero-title {
-  width: 696px;
-  height: 120px;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -96,12 +86,11 @@ ul {
 }
 
 .hero-button {
-  width: 200px;
-  height: 50px;
   background: var(--accent-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   font-size: 16px;
+  text-align: center;
   line-height: 1.88;
   letter-spacing: 0.06em;
   color: var(--primary-white-color);
@@ -109,8 +98,6 @@ ul {
 
 /* Features section*/ 
 .features-title {
-  width: 270px;
-  height: 16px;
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
@@ -118,8 +105,6 @@ ul {
 }
 
 .features-text {
-  width: 270px;
-  height: 75px;
   font-weight: var(--secondary-font-weight);
   font-size: 14px;
   line-height: 1.71;
@@ -127,30 +112,25 @@ ul {
 
 /* Work section*/
 .work-title {
-  width: 376px;
-  height: 42px;
   font-size: 36px;
   line-height: 1.17;
+  text-align: center;
   color: var(--secondary-text-color);
 }
 
 /* Team section */
 .team {
-  width: 1600px;
   background-color: var(--middle-bg-color);
 }
 
 .team-title {
-  width: 264px;
-  height: 42px;
   font-size: 36px;
   line-height: 1.17;
+  text-align: center;
   color: var(--secondary-text-color);
 }
 
 .team-name {
-  width: 151px;
-  height: 19px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
@@ -158,8 +138,6 @@ ul {
 }
 
 .team-description {
-  width: 130px;
-  height: 19px;
   font-weight: var(--secondary-font-weight);
   font-size: 16px;
   line-height: 1.19;
@@ -167,15 +145,11 @@ ul {
 
 /* Footer */
 .footer {
-  width: 1600px;
-  height: 252px;
   background-color: var(--dark-bg-color);
 }
 
 .logo-footer {
   font-family: 'Raleway', sans-serif;
-  width: 145px;
-  height: 31px;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
@@ -183,8 +157,6 @@ ul {
 } 
 
 .adress-footer {
-  width: 231px;
-  height: 21px;
   font-weight: var(--secondary-font-weight);
   font-size: 14px;
   line-height: 1.71;
@@ -203,8 +175,6 @@ ul {
 /* Button */
 
 .button {
-  width: 101px;
-  height: 26px;;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.63;
@@ -221,8 +191,6 @@ ul {
 
 /* Portfolio page */
 .portfolio-title {
-  width: 322px;
-  height: 36px;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
@@ -230,8 +198,6 @@ ul {
 }
 
 .portfolio-text {
-  width: 322px;
-  height: 30px;
   font-weight: var(--secondary-font-weight);
   font-size: 16px;
   line-height: 1.88;
