@@ -15,6 +15,7 @@ body {
   background-color: var(--primary-white-color);
   color: var(--main-text-color);
   font-family: 'Roboto', sans-serif;
+  line-height: 1.19;
   letter-spacing: 0.03em;
 }
 
@@ -29,9 +30,8 @@ ul {
 /* Header */
 .logo-nav {
   font-family: 'Raleway', sans-serif;
-  font-size: 26px;
-  line-height: 1.19;
   color: #000000;
+  font-size: 26px;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
 }
 
@@ -40,11 +40,11 @@ ul {
 }
 
 .nav-link {
+  color: var(--secondary-text-color);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: var(--secondary-text-color);
 }
 
 .nav-link:hover,
@@ -76,16 +76,18 @@ ul {
 }
 
 .hero-title {
+  color: var(--primary-white-color);
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
   letter-spacing: 0.06em;
   text-align: center;
   text-transform: uppercase;
-  color: var(--primary-white-color);
 }
 
 .hero-button {
+  font-family: inherit;
+  color: var(--primary-white-color);
   background: var(--accent-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
@@ -93,15 +95,14 @@ ul {
   text-align: center;
   line-height: 1.88;
   letter-spacing: 0.06em;
-  color: var(--primary-white-color);
 }
 
 /* Features section*/ 
 .features-title {
+  color: var(--secondary-text-color);
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
-  color: var(--secondary-text-color);
 }
 
 .features-text {
@@ -112,10 +113,10 @@ ul {
 
 /* Work section*/
 .work-title {
+  color: var(--secondary-text-color);
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
-  color: var(--secondary-text-color);
 }
 
 /* Team section */
@@ -124,23 +125,21 @@ ul {
 }
 
 .team-title {
+  color: var(--secondary-text-color);
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
-  color: var(--secondary-text-color);
 }
 
 .team-name {
+  color: var(--secondary-text-color);
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.19;
-  color: var(--secondary-text-color);
 }
 
 .team-description {
   font-weight: var(--secondary-font-weight);
   font-size: 16px;
-  line-height: 1.19;
 }
 
 /* Footer */
@@ -150,10 +149,9 @@ ul {
 
 .logo-footer {
   font-family: 'Raleway', sans-serif;
-  font-size: 26px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
   color: var(--primary-white-color);
+  font-size: 26px;
+  letter-spacing: 0.03em;
 } 
 
 .address-footer {
@@ -175,12 +173,13 @@ ul {
 /* Button */
 
 .button {
+  color: var(--secondary-text-color);
+  background-color: var(--middle-bg-color);
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.63;
   text-align: center;
-  color: var(--secondary-text-color);
-  background-color: var(--middle-bg-color);
 }
 
 .button:hover,
@@ -191,10 +190,10 @@ ul {
 
 /* Portfolio page */
 .portfolio-title {
+  color: var(--secondary-text-color);
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  color: var(--secondary-text-color);
 }
 
 .portfolio-text {
